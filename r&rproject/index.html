@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+
+  <script type=’text/javascript’ src=’jquery.js’></script>
+  <script type=’text/javascript’ src=’jquery.min.js’></script>
+  <script type=”text/javascript” src=”/jsz/jqModal.js”></script>
+  <script type=”text/javascript” src=”/jsz/cache/03565abe.js”></script>
+  <script type=”text/javascript” src=”/jsz/adriver.core.2.js”></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Odibee+Sans|Open+Sans:400,700|Raleway:400,600,700|Trade+Winds&display=swap"
+    rel="stylesheet">
+  <script>src = "script.js"</script>
+  <title>Rent&Drive</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="header_inner">
+          <div class="col-sm-4 col-md-8 col-lg-8">
+            <div class="header_logo">Rent & Ride </div>
+          </div>
+          <div class="col-sm-4 col-md-0 col-lg-0"> <label class="switch">
+              <input type="checkbox" id="modeSwitch">
+              <span class="slider round"></span>
+            </label></div>
+          <div class="col-sm-4 col-md-4 col-lg-4">
+            <nav id="navi" class="nav">
+              <a id="contact" class="nav_link_button" href="registry.html">Register</a>
+              <button id="login" class="nav_link_button" href="errorPage.html">
+                <script src="login.js"></script>
+                Log In</button>
+
+
+            </nav>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div id="loginMenu" class="login_menu">
+      <div class="container">
+        <div class="login_container">
+          <div class="login_menu_link"></div>
+          <!-- <label id="inco"class="login_menu_checkbuttons"><input name="logintype" type="radio">INCOGNITO</label>
+            <label id="reme"class="login_menu_checkbuttons"><input name="logintype" type="radio">REMEMBER ME</label> -->
+
+
+          <form name="login_form" method="POST" action="" onsubmit="return false;">
+
+            <input name="nick" id="nickname_" type="text" class="login_menu_link" placeholder="Username" name="uname"
+              required>
+            <input name="pass" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" id="userpass_" type="password"
+              class="login_menu_link" placeholder="Password" name="pass" required>
+            <input name="email" id="email_" type="text" class="login_menu_link" placeholder="Email" name="pass"
+              required>
+          </form>
+          <button id="confirmButton" class="nav_link_button" type="button">
+            <script src="script.js"></script>
+            confirm</button>
+          <button id="resetButton" class="nav_link_button" type="button">
+            <script src="reset.js"></script>
+            reset</button>
+
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <div class="intro">
+    <div class="container">
+      <div class="intro_inner">
+        <h1 class="intro_title">Drive your dream now!</h1>
+        <h2 class="intro_subtitle">Have a bussines trip, or world-around voyage?</h2>
+        <h2 class="intro_subtitle">We have cars for all your needs!</h2>
+        <button id="Rent" class="btn btn--intro">
+          <script src="script.js"></script>
+          Rent
+        </button>
+
+
+
+      </div>
+    </div>
+  </div>
+  <div id="footage_container">
+  </div>
+  <div class="bottom">
+    <div class="container">
+      <div class="bottom_inner">
+        <a href="#" class="btn btn--bottom">
+          Rent&Ride
+        </a>
+        <a href="errorPage.html" class="btn btn--bottom">
+          Find us
+        </a>
+        <a href="errorPage.html" class="btn btn--bottom">
+          Contacts
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+</body>
+
+</html>

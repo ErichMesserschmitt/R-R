@@ -1,0 +1,87 @@
+[
+    {
+        "name": "Blista",
+        "text": "Blista Compact",
+        "type": "city",
+        "price": "60",
+        "img": "img/Blista.png"
+    },
+    {
+        "name": "Feltzer",
+        "text": "2007 Compact German convertible with 2.5 Kompressor 280PS engine. Good choice if you want to go to places near the city",
+        "type": "city",
+        "price": "80",
+        "img": "img/Feltzer.png"
+    },
+    {
+        "name": "Tornado",
+        "text": "Tornado - heavy american classic car.",
+        "type": "classic",
+        "price": "90",
+        "img": "img/Tornado.png"
+    },
+    {
+        "name": "Blade",
+        "text": "Blade - heavy american classic car.",
+        "type": "classic",
+        "price": "100",
+        "img": "img/Blade.png"
+    },
+    {
+        "name": "Rancher",
+        "text": "Rancher - heavy american classic car.",
+        "type": "truck",
+        "price": "60",
+        "img": "img/Rancher.png"
+    },
+    {
+        "name": "Mesa",
+        "text": "Mesa - heavy american classic car.",
+        "type": "truck",
+        "price": "60",
+        "img": "img/Mesa.png"
+    },
+    {
+        "name": "Bobcat",
+        "text": "Bobcat - heavy american classic car.",
+        "type": "truck",
+        "price": "40",
+        "img": "img/Bobcat.png"
+    },
+    {
+        "name": "Landstalker",
+        "text": "Landstalker - heavy american classic car.",
+        "type": "city",
+        "price": "70",
+        "img": "img/Landstalker.png"
+    },
+    {
+        "name": "Banshee",
+        "text": "Banshee - heavy american classic car.",
+        "type": "race",
+        "price": "260",
+        "img": "img/Banshee.png"
+    },
+    {
+        "name": "Infernus",
+        "text": "Infernus - heavy american classic car.",
+        "type": "race",
+        "price": "460",
+        "img": "img/Infernus.png"
+    },
+    {
+        "name": "Comet",
+        "text": "Comet - heavy american classic car.",
+        "type": "race",
+        "price": "260",
+        "img": "img/Comet.png"
+    },
+    {
+        "name": "Itali",
+        "text": "Itali - heavy american classic car.",
+        "type": "race",
+        "price": "330",
+        "img": "img/Itali.png"
+    }   
+
+]

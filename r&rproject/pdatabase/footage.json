@@ -1,0 +1,34 @@
+[
+    {
+        "name": "City cars",
+        "type": "city",
+        "text": "Small and fast city cars",
+        "coverimg": "img/cc.jpg",
+        "textal": "content_header content_header--left",
+        "url": "#"
+    },
+    {
+        "name": "American classics",
+        "type": "classic",
+        "text": "Old american classics",
+        "coverimg": "img/mm.jpg",
+        "textal": "content_header content_header--right",
+        "url": "#"
+    },
+    {
+        "name": "Trucks",
+        "type": "truck",
+        "text": "Brutal and powerful trucks",
+        "coverimg": "img/tt.jpg",
+        "textal": "content_header content_header--left",
+        "url": "#"
+    },
+    {
+        "name": "Racing",
+        "type": "racing",
+        "text": "Supercharged racing dudes",
+        "coverimg": "img/rr.jpg",
+        "textal": "content_header content_header--right",
+        "url": "#"
+    }
+]
